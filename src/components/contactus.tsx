@@ -25,7 +25,7 @@ export function ContactUs() {
         "Pm0DkYg1G0S9B22LM" // Public Key (substitua pela sua Public Key)
       )
       .then(
-        (result) => {
+        (_result) => {
           alert("Message sent successfully!");
           setFormState({
             firstName: "",
@@ -35,7 +35,7 @@ export function ContactUs() {
             message: "",
           });
         },
-        (error) => {
+        (_error) => {
           alert("An error occurred, please try again.");
         }
       );
