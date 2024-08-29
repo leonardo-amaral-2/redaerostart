@@ -12,26 +12,31 @@ export function Mission() {
         <div className="mission-text-header">
           <h1
             style={{
-              borderBottom: "5px solid #1A458F",
+              borderBottom: "5px solid #0094D9",
+              color: "#1A458F",
             }}
           >
             Mission
           </h1>
-          <img
+          {/* <img
             src={logo}
             alt="logo"
             style={{
               width: "150px",
             }}
-          />
+          /> */}
         </div>
         <div className="mission-text-list">
-          <p>- North Atlantic & worldwide ferry flights</p>
-
-          <p>- EASA & FAA Registred Airplanes</p>
-          <p>- Prebuy inspections & technical flights</p>
-          <p>- On demand crew experienced FAA & EASA pilots</p>
-          <p>- On demand PC12, A330 A320 & ATR42 ATR72 Ferry Crew</p>
+          <p>
+            Our mission at RedaeroStart is to provide world-class aircraft ferry
+            services that prioritize safety, efficiency, and customer
+            satisfaction. We aim to be the preferred partner for aviation
+            professionals worldwide by delivering reliable, timely, and
+            cost-effective solutions tailored to each client’s unique needs. We
+            are committed to innovation, continuous improvement, and upholding
+            the highest standards of professionalism in every flight we
+            undertake.
+          </p>
         </div>
       </div>
     </div>

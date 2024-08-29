@@ -29,8 +29,8 @@ function App() {
     >
       <Header />
       <Banner />
-      <AboutUS />
       <Services />
+      <AboutUS />
       <Mission />
       <Gallery />
       <ContactUs />

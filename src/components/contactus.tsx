@@ -40,17 +40,75 @@ export function ContactUs() {
         }
       );
   };
+  const countryCodes = [
+    { code: "+1", name: "USA" },
+    { code: "+44", name: "UK" },
+    { code: "+55", name: "Brazil" },
+    { code: "+33", name: "France" },
+    { code: "+49", name: "Germany" },
+    { code: "+81", name: "Japan" },
+    { code: "+61", name: "Australia" },
+    { code: "+91", name: "India" },
+    { code: "+86", name: "China" },
+    { code: "+7", name: "Russia" },
+    { code: "+39", name: "Italy" },
+    { code: "+34", name: "Spain" },
+    { code: "+52", name: "Mexico" },
+    { code: "+27", name: "South Africa" },
+    { code: "+82", name: "South Korea" },
+    { code: "+46", name: "Sweden" },
+    { code: "+47", name: "Norway" },
+    { code: "+31", name: "Netherlands" },
+    { code: "+41", name: "Switzerland" },
+    { code: "+65", name: "Singapore" },
+    { code: "+90", name: "Turkey" },
+    { code: "+60", name: "Malaysia" },
+    { code: "+62", name: "Indonesia" },
+    { code: "+54", name: "Argentina" },
+    { code: "+64", name: "New Zealand" },
+    { code: "+48", name: "Poland" },
+    { code: "+43", name: "Austria" },
+    { code: "+51", name: "Peru" },
+    { code: "+63", name: "Philippines" },
+    { code: "+45", name: "Denmark" },
+    { code: "+53", name: "Cuba" },
+    { code: "+66", name: "Thailand" },
+    { code: "+56", name: "Chile" },
+    { code: "+92", name: "Pakistan" },
+    { code: "+20", name: "Egypt" },
+    { code: "+98", name: "Iran" },
+    { code: "+966", name: "Saudi Arabia" },
+    { code: "+234", name: "Nigeria" },
+    { code: "+58", name: "Venezuela" },
+    { code: "+94", name: "Sri Lanka" },
+    { code: "+357", name: "Cyprus" },
+    { code: "+964", name: "Iraq" },
+    { code: "+973", name: "Bahrain" },
+    { code: "+971", name: "United Arab Emirates" },
+    { code: "+373", name: "Moldova" },
+    { code: "+505", name: "Nicaragua" },
+    { code: "+593", name: "Ecuador" },
+    { code: "+962", name: "Jordan" },
+    // Adicione mais países conforme necessário
+  ];
 
   return (
     <div className="contact" data-aos="fade-up" id="contactus">
       <div className="contact-bg">
         <div className="contact-bg-container">
           <div className="contact-us-form">
-            <h1>Contact Us</h1>
+            <h1
+              style={{
+                borderBottom: "5px solid #0094D9",
+                color: "#1A458F",
+              }}
+            >
+              Contact Us
+            </h1>
             <div className="contact-us-items">
               <div className="contact-us-items-form">
                 <div className="item-form">
-                  <p>First Name:</p>
+                  <p>Name:</p>
                   <input
                     type="text"
                     name="firstName"
@@ -66,6 +124,32 @@ export function ContactUs() {
                     value={formState.familyName}
                     onChange={handleChange}
                   />
+                </div>
+                <div className="item-form">
+                  <p>Phone Number:</p>
+                  <div style={{ display: "flex", alignItems: "center" }}>
+                    <select
+                      name="countryCode"
+                      onChange={handleChange}
+                      style={{
+                        marginRight: "8px",
+                        height: "42px",
+                        width: "100px",
+                      }}
+                    >
+                      {countryCodes.map((item, index) => (
+                        <option key={index} value="+44">
+                          {item.code} ({item.name})
+                        </option>
+                      ))}
+                    </select>
+                    <input
+                      type="tel"
+                      name="phoneNumber"
+                      onChange={handleChange}
+                      style={{ flex: 1, padding: "5px" }}
+                    />
+                  </div>
                 </div>
                 <div className="item-form">
                   <p>Email:</p>
@@ -111,16 +195,21 @@ export function ContactUs() {
               <div className="info">
                 <h2>INFORMATION</h2>
                 <div className="info-data">
-                  <h3>RENNES/ BRITANNY FRANCE</h3>
-                  <h3>redaerostar@gmail.com</h3>
-                  <h3>+336.59.33.02.69</h3>
+                  <p>RENNES/ BRITANNY FRANCE</p>
+                  <p>redaerostar@gmail.com</p>
+                  <p>+336 59330269</p>
+                </div>
+                <div className="info-data">
+                  <p>PORTO/ PORTUGAL</p>
+                  <p>redaerostar@gmail.com</p>
+                  <p>+351 929 400 546</p>
                 </div>
                 <div>
                   <h2>AVAILABILITY</h2>
-                  <p>From Monday to Sunday 8am/ 10pm</p>
-                  <p>French Timing</p>
-                  <p>Winter +1utc</p>
-                  <p>Summer +2utc</p>
+                  <p>Availabel Every day</p>
+                  <p>07:30 UTC - 16:30 UTC</p>
+                  {/* <p>Winter +1utc</p>
+                  <p>Summer +2utc</p> */}
                 </div>
               </div>
             </div>

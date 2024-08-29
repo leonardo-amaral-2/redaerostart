@@ -10,7 +10,7 @@ export function Footer() {
         backgroundColor: "#fffafa",
       }}
     >
-      <h4>© 2024 par FBC-AERONAUTIC,LDA</h4>
+      <h4>© 2025 par REDAEROSTAR</h4>
     </div>
   );
 }

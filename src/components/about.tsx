@@ -9,30 +9,61 @@ export function AboutUS() {
         <div className="about-text-header">
           <h1
             style={{
-              borderBottom: "5px solid #1A458F",
+              borderBottom: "5px solid #0094D9",
+              color: "#1A458F",
             }}
           >
             About Us
           </h1>
-          <img
+          {/* <img
             src={logo}
             alt="logo"
             style={{
               width: "150px",
             }}
-          />
+          /> */}
         </div>
         <div className="about-text-list">
           <p>
-            Kevin CONDETTE, founder of RED AEROSTAR began his first ferry
-            flights in 2015 flying single and multi engine piston airplanes
-            through Europe & North Atlantic. ​ We are based in western Europe
-            wich allows us to ease the transits of planes between Africa, Asia &
-            America. We Fly VFR & IFR, PC12, single & multi engine GA planes. We
-            also offer A330 A320 & ATR Ferry Crew. Our team is compound of very
-            experienced Commercial EASA & FAA Ferry Pilots. ​ The RED AEROSTAR
-            minimum requirement in the delivery of your aircraft is the
-            EXCELLENCE.
+            REDAEROSTAR is dedicated to delivering exceptional service across
+            the skies.
+            <br />
+            <br />
+            With a team of highly experienced pilots and aviation professionals,
+            we specialize in safely and efficiently relocating aircraft to
+            destinations around the world.
+            <br />
+            <br />
+            Our commitment to excellence ensures that every flight is executed
+            with the utmost precision, reliability, and care.
+            <br />
+            <br />
+            Founded with a passion for aviation and a deep understanding of the
+            industry’s unique challenges, RedaeroStart has quickly established
+            itself as a trusted partner for leasing companies and aircraft
+            owners.
+            <br />
+            <br />
+            Whether it’s moving a single aircraft or managing complex fleet
+            transfers, we bring a wealth of expertise to every mission.
+            <br />
+            <br />
+            At RedaeroStart, safety is our top priority.
+            <br />
+            <br />
+            We adhere to the highest industry standards, rigorously maintaining
+            our fleet and continuously training our pilots to handle any
+            situation.
+            <br />
+            <br />
+            Our global reach, combined with our local knowledge, allows us to
+            navigate the intricacies of international regulations and logistics
+            seamlessly.
+            <br />
+            <br />
+            We are more than just a ferry flying company; we are your strategic
+            partner in aviation, committed to getting your aircraft where it
+            needs to be, on time and in perfect condition.
           </p>
         </div>
       </div>
