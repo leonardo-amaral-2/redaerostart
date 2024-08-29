@@ -1,7 +1,5 @@
 import "../styles/aboutus.css";
 
-import logo from "../assets/redaerostar-logo.png";
-
 export function AboutUS() {
   return (
     <div className="about" data-aos="fade-up" id="about">

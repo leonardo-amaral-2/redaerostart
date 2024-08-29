@@ -2,7 +2,6 @@ import { Icon } from "@chakra-ui/react";
 import "../styles/services.css";
 import { FaEarthEurope } from "react-icons/fa6";
 import { GiAirplaneDeparture } from "react-icons/gi";
-import { GrHostMaintenance } from "react-icons/gr";
 import { VscChecklist } from "react-icons/vsc";
 
 export function Services() {

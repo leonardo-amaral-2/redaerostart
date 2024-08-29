@@ -1,7 +1,5 @@
 import "../styles/mission.css";
 
-import logo from "../assets/redaerostar-logo.png";
-
 export function Mission() {
   return (
     <div className="mission" data-aos="fade-up" id="mission">
