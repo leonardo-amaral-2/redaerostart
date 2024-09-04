@@ -10,7 +10,7 @@ export function Footer() {
         backgroundColor: "#fffafa",
       }}
     >
-      <h4>© 2025 par REDAEROSTAR</h4>
+      <h4>© 2025 par Active Management</h4>
     </div>
   );
 }

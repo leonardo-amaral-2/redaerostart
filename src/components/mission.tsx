@@ -26,8 +26,8 @@ export function Mission() {
         </div>
         <div className="mission-text-list">
           <p>
-            Our mission at RedaeroStart is to provide world-class aircraft ferry
-            services that prioritize safety, efficiency, and customer
+            Our mission at Active Management is to provide world-class aircraft
+            ferry services that prioritize safety, efficiency, and customer
             satisfaction. We aim to be the preferred partner for aviation
             professionals worldwide by delivering reliable, timely, and
             cost-effective solutions tailored to each client’s unique needs. We

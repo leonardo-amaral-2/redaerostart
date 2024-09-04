@@ -23,8 +23,8 @@ export function AboutUS() {
         </div>
         <div className="about-text-list">
           <p>
-            REDAEROSTAR is dedicated to delivering exceptional service across
-            the skies.
+            Active Management is dedicated to delivering exceptional service
+            across the skies.
             <br />
             <br />
             With a team of highly experienced pilots and aviation professionals,
@@ -37,16 +37,16 @@ export function AboutUS() {
             <br />
             <br />
             Founded with a passion for aviation and a deep understanding of the
-            industry’s unique challenges, RedaeroStart has quickly established
-            itself as a trusted partner for leasing companies and aircraft
-            owners.
+            industry’s unique challenges, Active Management has quickly
+            established itself as a trusted partner for leasing companies and
+            aircraft owners.
             <br />
             <br />
             Whether it’s moving a single aircraft or managing complex fleet
             transfers, we bring a wealth of expertise to every mission.
             <br />
             <br />
-            At RedaeroStart, safety is our top priority.
+            At Active Management, safety is our top priority.
             <br />
             <br />
             We adhere to the highest industry standards, rigorously maintaining

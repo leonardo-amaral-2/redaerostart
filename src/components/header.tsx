@@ -1,5 +1,5 @@
 import "../styles/header.css";
-import logo from "../assets/redaerostar-logo-type.png";
+import logo from "../assets/active_1.png";
 
 export function Header() {
   const handleScroll = (id: string) => {
@@ -16,7 +16,7 @@ export function Header() {
           src={logo}
           alt="logo"
           style={{
-            width: "200px",
+            width: "260px",
           }}
         />
       </div>

@@ -196,12 +196,12 @@ export function ContactUs() {
                 <h2>INFORMATION</h2>
                 <div className="info-data">
                   <p>RENNES/ BRITANNY FRANCE</p>
-                  <p>redaerostar@gmail.com</p>
+                  <p>activemanagement@gmail.com</p>
                   <p>+336 59330269</p>
                 </div>
                 <div className="info-data">
                   <p>PORTO/ PORTUGAL</p>
-                  <p>redaerostar@gmail.com</p>
+                  <p>activemanagement@gmail.com</p>
                   <p>+351 929 400 546</p>
                 </div>
                 <div>
